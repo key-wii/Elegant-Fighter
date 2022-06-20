@@ -21,6 +21,7 @@
     {"id":{"name":"oPlayer_duck","path":"objects/oPlayer_duck/oPlayer_duck.yy",},"order":3,},
     {"id":{"name":"sprPlayer_duck","path":"sprites/sprPlayer_duck/sprPlayer_duck.yy",},"order":2,},
     {"id":{"name":"oEnemy_parent","path":"objects/oEnemy_parent/oEnemy_parent.yy",},"order":5,},
+    {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":11,},
     {"id":{"name":"sprHitbox","path":"sprites/sprHitbox/sprHitbox.yy",},"order":7,},
     {"id":{"name":"oPlayer_parent","path":"objects/oPlayer_parent/oPlayer_parent.yy",},"order":7,},
     {"id":{"name":"obj_hitbox","path":"objects/obj_hitbox/obj_hitbox.yy",},"order":8,},

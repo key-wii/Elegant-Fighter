@@ -1,13 +1,15 @@
-atk = -1;
 dir = LEFT;
-pickerMin = 0;
-pickerMax = 99;
-attacking = false;
+spd = 2;
+maxPushSpd = 9999;
 
-text = noone;
+atk = -1;
+attacking = false;
 hitbox = noone;
 
-alarm_set(0, 50);
+pickerMin = 0;
+pickerMax = 99;
+
+alarm_set(4, 1);
 
 
 yHigh1 = sprite_height * -1;

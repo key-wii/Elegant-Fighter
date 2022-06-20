@@ -3,7 +3,7 @@ if (!lethal) exit;
 
 with (other) {
 	instance_change(oPlayer_hurt, true);
-	kBack = 20;
+	kBack = 15;
 	//kDir = other.kDir;
 	direction = other.kDir;
 }
