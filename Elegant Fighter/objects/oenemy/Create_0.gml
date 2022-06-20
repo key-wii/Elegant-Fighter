@@ -10,6 +10,8 @@ hitbox = noone;
 pickerMin = 0;
 pickerMax = 99;
 
+dazed = false;
+
 alarm_set(4, 1);
 
 
