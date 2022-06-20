@@ -23,7 +23,8 @@ if (atk > -1 && !attacking) {
 	var player = oPlayer_parent;
 	var inRange = player.x >= xx1 && player.x <= xx2 && player.object_index == stateDodge;
 	if (inRange) {
-		if (alarm_get(1) > 3) alarm_set(1, 3);
-		if (alarm_get(2) > 3) alarm_set(2, 3);
+		var atkMax = windupMax - 15;
+		if (alarm_get(1) > 3 && alarm_get(1) <= atkMax) alarm_set(1, 3);
+		if (alarm_get(2) > 3 && alarm_get(2) <= atkMax) alarm_set(2, 3);
 	}
 }

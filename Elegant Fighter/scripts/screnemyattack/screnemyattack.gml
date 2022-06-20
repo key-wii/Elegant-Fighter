@@ -18,7 +18,7 @@ function enemyAttack(y1, y2) {
 			kdir = 0 + upDegrees;
 			break;
 	}
-	hitbox = instance_create_layer(x + xx1, y + y1, layer, obj_hitbox);
+	hitbox = instance_create_layer(x + xx1, y + y1, layer, oHitbox);
 	hitbox.image_xscale = xx2 - xx1;
 	hitbox.image_yscale = y2 - y1;
 	hitbox.kDir = kdir;

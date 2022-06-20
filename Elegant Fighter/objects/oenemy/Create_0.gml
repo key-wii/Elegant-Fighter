@@ -2,6 +2,7 @@ dir = LEFT;
 spd = 2;
 maxPushSpd = 9999;
 
+windupMax = 70;
 atk = -1;
 attacking = false;
 hitbox = noone;
