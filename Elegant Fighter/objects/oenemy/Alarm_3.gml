@@ -17,8 +17,8 @@ var player = oPlayer_parent;
 var inRange = player.x >= xx1 && player.x <= xx2 && player.object_index == stateDodge;
 if (inRange) {
 	dazed = true;
-	dizzyParticles(0);
-	alarm_set(5, 480);
+	dizzyParticles();
+	alarm_set(5, 420);
 }
 else alarm_set(4, 40);
 

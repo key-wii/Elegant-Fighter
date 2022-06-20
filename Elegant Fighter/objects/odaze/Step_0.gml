@@ -1,13 +1,35 @@
 /// @description 
-image_angle -= 4;
-theta += 4;
-if (theta >= 360) theta -= 360;
+image_angle += 6;
 
-if (!instance_exists(owner)) {
-	instance_destroy();
-	exit;
+if (!instance_exists(owner)) instance_destroy();
+if (goLeft) {
+	xx -= 2;
+	if (xx <= -xMax) {
+		layer = layer_get_id("Particle");
+		goLeft = false;
+	} else if (xx >= 0) {
+		yy -= .25;
+		image_xscale -= .005;
+		image_yscale -= .005;
+	} else {
+		yy += .25;
+		image_xscale += .005;
+		image_yscale += .005;
+	}
+} else {
+	xx += 2;
+	if (xx >= xMax) {
+		layer = layer_get_id("Floor");
+		goLeft = true;
+	} else if (xx <= 0) {
+		yy -= .25;
+		image_xscale += .0075;
+		image_yscale += .0075;
+	} else {
+		yy += .25;
+		image_xscale -= .0075;
+		image_yscale -= .0075;
+	}
 }
-var xx = owner.x;
-var yy = owner.y - owner.sprite_height + 20;
-x = xx + lengthdir_x(radius, theta);
-y = yy + lengthdir_y(radius, theta);
+x = owner.x + xx;
+y = owner.y + yy - owner.sprite_height * .99;
