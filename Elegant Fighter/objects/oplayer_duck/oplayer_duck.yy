@@ -1,19 +1,18 @@
 {
-  "name": "oPlayer_duck",
   "spriteId": {
     "name": "sprPlayer_duck",
     "path": "sprites/sprPlayer_duck/sprPlayer_duck.yy",
   },
-  "spriteMaskId": null,
-  "visible": true,
   "solid": false,
-  "persistent": false,
-  "physicsObject": false,
+  "visible": true,
   "managed": true,
+  "spriteMaskId": null,
+  "persistent": false,
   "parentObjectId": {
     "name": "oPlayer_parent",
     "path": "objects/oPlayer_parent/oPlayer_parent.yy",
   },
+  "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
   "physicsGroup": 1,
@@ -35,6 +34,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
+  "name": "oPlayer_duck",
   "tags": [],
   "resourceType": "GMObject",
 }

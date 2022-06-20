@@ -20,7 +20,6 @@ if (atk > -1 && !attacking) {
 			xx2 = x + xRight2;
 			break;
 	}
-	//var inRange = collision_rectangle(xx1, yy1, xx2, yy2, oPlayer_parent, false, false);
 	var player = oPlayer_parent;
 	var inRange = player.x >= xx1 && player.x <= xx2 && player.object_index == stateDodge;
 	if (inRange) {
