@@ -1,4 +1,14 @@
 function playerInput() {
+	//Pause
+	/*if (keyboard_check(inputPause1) || keyboard_check(inputPause2)) {
+		
+	}*/
+	
+	//Slow Motion
+	if (keyboard_check(inputSlow1) || keyboard_check(inputSlow2)) {
+		global.slow = true;
+	} else global.slow = false;
+	
 	//Dodge
 	if (!falling) {
 		if (keyboard_check(inputU1) || keyboard_check(inputU2)) {
@@ -18,7 +28,6 @@ function playerInput() {
 		xMove += spd;
 	}
 	x += xMove;
-	
 	//Push away enemies
 	if (place_meeting(x, y, oEnemy_parent))
 		with (oEnemy_parent) if (place_meeting(x, y, other)) {

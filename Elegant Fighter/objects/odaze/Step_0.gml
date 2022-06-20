@@ -21,7 +21,7 @@ if (goLeft) {
 	if (xx >= xMax) {
 		layer = layer_get_id("Floor");
 		goLeft = true;
-	} else if (xx <= 0) {
+	} else if (xx < 0) {
 		yy -= .25;
 		image_xscale += .0075;
 		image_yscale += .0075;
@@ -32,4 +32,4 @@ if (goLeft) {
 	}
 }
 x = owner.x + xx;
-y = owner.y + yy - owner.sprite_height * .99;
+y = owner.y + yy - owner.sprite_height * .955;
