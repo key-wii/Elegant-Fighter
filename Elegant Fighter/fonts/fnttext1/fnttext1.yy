@@ -133,7 +133,7 @@
     "path": "folders/Fonts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "fnt_text1",
+  "name": "fntText1",
   "tags": [],
   "resourceType": "GMFont",
 }

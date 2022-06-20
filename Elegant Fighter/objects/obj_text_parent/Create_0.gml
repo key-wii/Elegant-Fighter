@@ -3,7 +3,7 @@ direction = 90;
 dir = direction;
 speed = .05;
 
-fnt = fnt_text1;
+fnt = fntText1;
 col1 = c_black;
 col2 = c_black;
 colOl1 = c_white;

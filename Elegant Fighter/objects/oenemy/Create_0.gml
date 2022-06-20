@@ -7,7 +7,7 @@ attacking = false;
 text = noone;
 hitbox = noone;
 
-alarm_set(0, 1);
+alarm_set(0, 50);
 
 
 yHigh1 = sprite_height * -1;
