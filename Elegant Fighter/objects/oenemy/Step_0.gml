@@ -18,7 +18,8 @@ if (atk > -1 && !attacking) {
 	var inRange = player.x >= xx1 && player.x <= xx2 && player.object_index == stateDodge;
 	if (inRange) {
 		var atkMax = windupMax - 15;
-		if (alarm_get(1) > 3 && alarm_get(1) <= atkMax) alarm_set(1, 3);
-		if (alarm_get(2) > 3 && alarm_get(2) <= atkMax) alarm_set(2, 3);
+		var atkMin = 5;
+		if (alarm_get(1) > atkMin && alarm_get(1) <= atkMax) alarm_set(1, atkMin);
+		if (alarm_get(2) > atkMin && alarm_get(2) <= atkMax) alarm_set(2, atkMin);
 	}
 }

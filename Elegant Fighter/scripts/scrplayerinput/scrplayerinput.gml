@@ -4,11 +4,6 @@ function playerInput() {
 		
 	}*/
 	
-	//Slow Motion
-	if (keyboard_check(inputSlow1) || keyboard_check(inputSlow2)) {
-		global.slow = true;
-	} else global.slow = false;
-	
 	//Dodge
 	if (!falling) {
 		if (keyboard_check(inputU1) || keyboard_check(inputU2)) {
@@ -28,6 +23,8 @@ function playerInput() {
 		xMove += spd;
 	}
 	x += xMove;
+		 if (xMove > 0) image_xscale = 1;
+	else if (xMove < 0) image_xscale = -1;
 	//Push away enemies
 	if (place_meeting(x, y, oEnemy_parent))
 		with (oEnemy_parent) if (place_meeting(x, y, other)) {
