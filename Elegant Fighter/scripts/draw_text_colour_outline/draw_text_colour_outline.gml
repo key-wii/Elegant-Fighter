@@ -1,6 +1,6 @@
 /// @description draw_text_colour_outline(x, y, string, textColor1, textColor2, textAlpha, outlineColor1, outlineColor2, outlineAlpha, outlineThickness, outlineQuality, xscale, yscale, angle);
 //By Blokatt - @blokatt, blokatt.net
-function draw_text_colour_outline() 
+function drawTextColourOutline() 
 {
 	/*var c = argument[0], y = argument[1], string = argument[2], textColor1 = argument[3],
 	textColor2 = argument[4], outlineColor1 = argument[5], outlineColor2 = argument[6], a = argument[7],

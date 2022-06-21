@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Scripts",
-    "path": "folders/Scripts.yy",
+    "name": "enemy",
+    "path": "folders/Scripts/enemy.yy",
   },
   "resourceVersion": "1.0",
   "name": "scrDizzyParticles",

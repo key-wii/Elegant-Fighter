@@ -5,6 +5,6 @@ draw_set_valign(fa_middle);
 	dir - 90, col1, col1, col2, col2, image_alpha);*/
 var edge = 0;
 //var edge = global.cameraAdjust + 40;
-draw_text_colour_outline(clamp(x, edge, room_width - edge), clamp(y, edge, room_height - edge),
+drawTextColourOutline(clamp(x, edge, room_width - edge), clamp(y, edge, room_height - edge),
 	txt, col1, col2, image_alpha, colOl1, colOl2, image_alpha,
 	4, 10, image_xscale, image_xscale, image_angle);

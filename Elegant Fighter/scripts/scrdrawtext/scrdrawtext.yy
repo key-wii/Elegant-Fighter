@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Scripts",
-    "path": "folders/Scripts.yy",
+    "name": "common",
+    "path": "folders/Scripts/common.yy",
   },
   "resourceVersion": "1.0",
   "name": "scrDrawText",
