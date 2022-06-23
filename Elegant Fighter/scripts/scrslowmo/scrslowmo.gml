@@ -3,7 +3,7 @@
 function slowMo() {
 	if (keyboard_check(inputSlow1) || keyboard_check(inputSlow2)) {
 		global.slow = true;
-		room_speed = 30;
+		room_speed = 20;
 		spd = 5;
 	} else {
 		global.slow = false;
