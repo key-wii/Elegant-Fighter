@@ -33,8 +33,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "player",
-    "path": "folders/Objects/player.yy",
+    "name": "dodge",
+    "path": "folders/Objects/player/dodge.yy",
   },
   "resourceVersion": "1.0",
   "name": "oPlayer_hop",

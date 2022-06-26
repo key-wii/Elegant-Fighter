@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprPlayer_duck",
-    "path": "sprites/sprPlayer_duck/sprPlayer_duck.yy",
+    "name": "sprPlayer_punch",
+    "path": "sprites/sprPlayer_punch/sprPlayer_punch.yy",
   },
   "solid": false,
   "visible": true,
@@ -25,19 +25,21 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":1,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":12,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "dodge",
-    "path": "folders/Objects/player/dodge.yy",
+    "name": "attack",
+    "path": "folders/Objects/player/attack.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oPlayer_duck",
+  "name": "oPlayer_punch",
   "tags": [],
   "resourceType": "GMObject",
 }
