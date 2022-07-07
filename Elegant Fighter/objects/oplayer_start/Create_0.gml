@@ -35,6 +35,7 @@ target = noone;
 
 pColor = make_color_rgb(0, 174, 240);
 
-
+targetRot = 0;
+targetRot2 = 0;
 
 instance_change(oPlayer, true);
