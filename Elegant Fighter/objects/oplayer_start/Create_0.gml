@@ -31,6 +31,7 @@ xRight2 = sprite_width * 1.5;
 dir = RIGHT;
 
 falling = false;
+target = noone;
 
 pColor = make_color_rgb(0, 174, 240);
 

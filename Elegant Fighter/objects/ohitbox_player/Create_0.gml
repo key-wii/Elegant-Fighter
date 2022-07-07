@@ -1,4 +1,4 @@
 /// @description 
 lethal = true;
-kDir = 180;
+kDir = 90;
 image_alpha = .5;

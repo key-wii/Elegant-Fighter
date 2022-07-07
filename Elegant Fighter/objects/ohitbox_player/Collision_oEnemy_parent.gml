@@ -1,10 +1,15 @@
 /// @description Hit
-if (!lethal) exit;
+if (!lethal || !instance_exists(owner)) exit;
 
-with (other) {
-	//instance_change(oPlayer_hurt, true);
-	kBack = 15;
-	//kDir = other.kDir;
+var enemy = other;
+with (owner) target = enemy.id;
+
+with (enemy) {
+	prev_object = object_index;
+	instance_change(oEnemy_hurt, true);
+	kBack = 10;
+	
+	y += kBack;
 	direction = other.kDir;
 }
 
