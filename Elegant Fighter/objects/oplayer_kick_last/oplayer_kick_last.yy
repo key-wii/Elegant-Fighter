@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprPlayer_punch",
-    "path": "sprites/sprPlayer_punch/sprPlayer_punch.yy",
+    "name": "sprPlayer_kick",
+    "path": "sprites/sprPlayer_kick/sprPlayer_kick.yy",
   },
   "solid": false,
   "visible": true,
@@ -9,8 +9,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "oPlayer_punch",
-    "path": "objects/oPlayer_punch/oPlayer_punch.yy",
+    "name": "oPlayer_kick_combo",
+    "path": "objects/oPlayer_kick_combo/oPlayer_kick_combo.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -26,6 +26,7 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
@@ -35,7 +36,7 @@
     "path": "folders/Objects/player/attack.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oPlayer_punch_combo",
+  "name": "oPlayer_kick_last",
   "tags": [],
   "resourceType": "GMObject",
 }

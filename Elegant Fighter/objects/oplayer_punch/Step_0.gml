@@ -1,4 +1,4 @@
 /// @description Kick or Dodge cancels Punch
-kickInput();
-punchCombo();
+kickInput(false);
+if (hitbox != noone) punchCombo();
 dodgeInput();

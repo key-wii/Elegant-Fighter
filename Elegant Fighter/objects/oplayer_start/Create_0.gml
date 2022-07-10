@@ -31,11 +31,12 @@ xRight2 = sprite_width * 1.5;
 dir = RIGHT;
 
 falling = false;
+
 target = noone;
-
-pColor = make_color_rgb(0, 174, 240);
-
+targetAtk = HIGH;
 targetRot = 0;
 targetRot2 = 0;
+
+pColor = make_color_rgb(0, 174, 240);
 
 instance_change(oPlayer, true);

@@ -21,6 +21,8 @@
     {"id":{"name":"scrPushEnemy","path":"scripts/scrPushEnemy/scrPushEnemy.yy",},"order":1,},
     {"id":{"name":"scr_outline","path":"scripts/scr_outline/scr_outline.yy",},"order":0,},
     {"id":{"name":"oPlayer_kick","path":"objects/oPlayer_kick/oPlayer_kick.yy",},"order":1,},
+    {"id":{"name":"oPlayer_punch_last","path":"objects/oPlayer_punch_last/oPlayer_punch_last.yy",},"order":4,},
+    {"id":{"name":"oPlayer_kick_last","path":"objects/oPlayer_kick_last/oPlayer_kick_last.yy",},"order":5,},
     {"id":{"name":"scrSlowMo","path":"scripts/scrSlowMo/scrSlowMo.yy",},"order":0,},
     {"id":{"name":"oHitbox_player","path":"objects/oHitbox_player/oHitbox_player.yy",},"order":6,},
     {"id":{"name":"oFloor","path":"objects/oFloor/oFloor.yy",},"order":0,},

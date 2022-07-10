@@ -9,8 +9,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "oPlayer_punch",
-    "path": "objects/oPlayer_punch/oPlayer_punch.yy",
+    "name": "oPlayer_punch_combo",
+    "path": "objects/oPlayer_punch_combo/oPlayer_punch_combo.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -27,6 +27,7 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -35,7 +36,7 @@
     "path": "folders/Objects/player/attack.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oPlayer_punch_combo",
+  "name": "oPlayer_punch_last",
   "tags": [],
   "resourceType": "GMObject",
 }

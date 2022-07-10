@@ -1,2 +1,3 @@
-/// @description Kick or Dodge cancels Punch
+/// @description Continue Combo
+kickInput(true); //Input buffer
 punchCombo();

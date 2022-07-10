@@ -1,19 +1,16 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function playerAttack() {
+function playerAttack(last) {
 	var kdir = 90;
-	//var upDegrees = 30;
 	var xx1, xx2; 
 	switch(dir) {
 		case LEFT:
 			xx1 = xLeft1;
 			xx2 = xLeft2;
-			//kdir = 180 - upDegrees;
+			if (last) kdir += 30;
 			break;
 		case RIGHT:
 			xx1 = xRight1;
 			xx2 = xRight2;
-			//kdir = 0 + upDegrees;
+			if (last) kdir -= 30;
 			break;
 	}
 	hitbox = instance_create_layer(x + xx1, y + y1, "Attack", oHitbox_player);
