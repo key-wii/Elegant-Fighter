@@ -7,8 +7,8 @@ function playerInput() {
 	}*/
 	
 	//Attack
-	punchInput();
-	kickInput();
+	punchInput(false);
+	kickInput(false);
 	
 	//Dodge
 	dodgeInput();
@@ -35,9 +35,6 @@ function playerInput() {
 		dir = LEFT;
 		image_xscale = -1;
 	}
-	//Push away enemies
-	if (place_meeting(x, y, oEnemy_parent))
-		with (oEnemy_parent) if (place_meeting(x, y, other)) {
-			x += clamp(other.spd / 2, 0, maxPushSpd);
-		}
+	//if (xMove != 0) pushEnemies();
+	pushEnemies();
 }

@@ -1,4 +1,4 @@
-/// @description Stop attacking
+/// @description Stop attacking, Set to Dazed if Player Dodged
 var xx1 = 0, xx2 = 0;
 switch (dir) {
 	case LEFT:
@@ -18,7 +18,7 @@ var inRange = player.x >= xx1 && player.x <= xx2 && player.object_index == state
 if (inRange) {
 	dazed = true;
 	dizzyParticles();
-	alarm_set(5, 420);
+	alarm_set(5, dazeLen);
 }
 else alarm_set(4, 40);
 

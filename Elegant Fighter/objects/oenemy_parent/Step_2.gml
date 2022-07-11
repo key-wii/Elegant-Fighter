@@ -6,7 +6,6 @@ for (var i = 0; i < 10; i++) {
 	} else {
 		y = instance_nearest(x, y, oFloor).y;
 		falling = false;
-		exit;
 	}
 }
 

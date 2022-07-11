@@ -3,8 +3,7 @@
 
 draw_self();
 drawText(fntText2, fa_center, fa_middle, x, room_height * .9, strState, c_white, c_white, pColor, pColor, 1, 1, 0);
-//draw_set_circle_precision(4);
-if (instance_exists(target)) {
+/*if (instance_exists(target)) {
 	var col = c_white;
 	switch(targetAtk) {
 		case HIGH: col = c_aqua; break;
@@ -24,7 +23,6 @@ if (instance_exists(target)) {
 } else {
 	targetRot = 0;
 	targetRot2 = 0;
-}
-//draw_set_circle_precision(360);
+}*/
 
 //shader_reset();

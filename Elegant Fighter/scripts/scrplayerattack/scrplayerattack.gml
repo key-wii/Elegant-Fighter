@@ -18,6 +18,7 @@ function playerAttack(last) {
 	hitbox.image_yscale = y2 - y1;
 	hitbox.kDir = kdir;
 	hitbox.owner = id;
+	if (last) hitbox.last = true;
 
 	alarm_set(3, 10);
 }

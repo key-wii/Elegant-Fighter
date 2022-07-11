@@ -1,0 +1,2 @@
+/// @description Draw text
+drawText(fntText3, fa_center, fa_middle, x, room_height * .9, "Knockdown", c_orange, c_orange, c_black, c_black, 1, 1, 0);

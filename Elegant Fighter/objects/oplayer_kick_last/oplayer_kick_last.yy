@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprPlayer_kick",
-    "path": "sprites/sprPlayer_kick/sprPlayer_kick.yy",
+    "name": "sprPlayer_kick_last",
+    "path": "sprites/sprPlayer_kick_last/sprPlayer_kick_last.yy",
   },
   "solid": false,
   "visible": true,

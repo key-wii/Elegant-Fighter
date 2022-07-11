@@ -4,4 +4,4 @@ atk = -1;
 attacking = false;
 
 dazed = false;
-with (oDaze) if (owner == other.id) instance_destroy();
+with (oDaze_CcWise) if (owner == other.id) instance_destroy();

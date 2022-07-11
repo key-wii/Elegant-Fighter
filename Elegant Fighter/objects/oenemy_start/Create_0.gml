@@ -10,7 +10,10 @@ hitbox = noone;
 pickerMin = 0;
 pickerMax = 99;
 
+dazeLen = 420;
 dazed = false;
+falling = false;
+knockdown = false;
 
 alarm_set(4, 1);
 
@@ -24,5 +27,5 @@ xLeft2 = sprite_width * -.5;
 xRight1 = sprite_width * .5;
 xRight2 = sprite_width * 2;
 
-
-instance_change(oEnemy, false);
+enemyType = oEnemy;
+instance_change(enemyType, false);

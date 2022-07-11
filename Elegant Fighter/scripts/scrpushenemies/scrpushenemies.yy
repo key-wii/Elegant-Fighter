@@ -6,7 +6,7 @@
     "path": "folders/Scripts/player.yy",
   },
   "resourceVersion": "1.0",
-  "name": "scrPushEnemy",
+  "name": "scrPushEnemies",
   "tags": [],
   "resourceType": "GMScript",
 }

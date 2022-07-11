@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprPlayer_punch",
-    "path": "sprites/sprPlayer_punch/sprPlayer_punch.yy",
+    "name": "sprPlayer_punch_last",
+    "path": "sprites/sprPlayer_punch_last/sprPlayer_punch_last.yy",
   },
   "solid": false,
   "visible": true,
