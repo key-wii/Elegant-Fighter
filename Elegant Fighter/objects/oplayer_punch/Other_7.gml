@@ -6,6 +6,7 @@ if (image_speed < 0) {
 	else {
 		instance_change(oPlayer, true);
 		instance_change(oPlayer_punch_combo, true);
+		exit;
 	}
 }
 

@@ -12,4 +12,4 @@ if (image_speed < 0) {
 
 //Reverse animation
 image_index = 3;
-image_speed = -.4;
+image_speed = -2;
