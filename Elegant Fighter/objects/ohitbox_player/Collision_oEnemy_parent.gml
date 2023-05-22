@@ -12,6 +12,8 @@ with (enemy) {
 	else knockdown = false
 	direction = other.kDir;
 	
+	//Used for mixed HIGH + LOW combo
+	//aka Punch-Kick-Punch or Kick-Punch-Kick
 	kBack = other.kBackPower;
 	if (lastHitType != other.atkType) {
 		juggleCount++;
