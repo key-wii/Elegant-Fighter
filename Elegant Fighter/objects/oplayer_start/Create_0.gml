@@ -31,6 +31,7 @@ xRight2 = sprite_width * 1.5;
 dir = RIGHT;
 
 falling = false;
+kBackPower = 10;
 
 target = noone;
 targetAtk = HIGH;

@@ -1,4 +1,4 @@
 /// @description Attack LOW
-playerAttack(false);
+playerAttack(false, kBackPower);
 targetAtk = LOW;
 //alarm_set(1, 30);

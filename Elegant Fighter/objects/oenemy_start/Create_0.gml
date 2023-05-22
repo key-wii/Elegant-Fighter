@@ -15,6 +15,9 @@ dazed = false;
 falling = false;
 knockdown = false;
 
+juggleCount = 0;
+lastHitType = noone;
+
 alarm_set(4, 1);
 
 
