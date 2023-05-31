@@ -39,6 +39,7 @@
     {"name":"sprSlow","order":13,"path":"sprites/sprSlow/sprSlow.yy",},
     {"name":"sprPlayer_duck","order":1,"path":"sprites/sprPlayer_duck/sprPlayer_duck.yy",},
     {"name":"sprPlayer_punch_last","order":11,"path":"sprites/sprPlayer_punch_last/sprPlayer_punch_last.yy",},
+    {"name":"scrXMoveInput","order":7,"path":"scripts/scrXMoveInput/scrXMoveInput.yy",},
     {"name":"sprPlayer_hurt","order":4,"path":"sprites/sprPlayer_hurt/sprPlayer_hurt.yy",},
     {"name":"oEnemy_parent","order":2,"path":"objects/oEnemy_parent/oEnemy_parent.yy",},
     {"name":"oEnemy_hurt","order":4,"path":"objects/oEnemy_hurt/oEnemy_hurt.yy",},

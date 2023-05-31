@@ -1,4 +1,6 @@
-/// @description Attack in 3 frames
+/// @description Attack in 3 framesxMoveInput();
+xMoveInput();
+
 strState = "Punch Combo";
 hitbox = noone;
 image_index = 2;

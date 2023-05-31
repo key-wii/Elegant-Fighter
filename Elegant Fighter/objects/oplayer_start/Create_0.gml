@@ -29,6 +29,7 @@ xLeft2 = sprite_width * -.5;
 xRight1 = sprite_width * .5;
 xRight2 = sprite_width * 1.5;
 dir = RIGHT;
+xMove = 0;
 
 falling = false;
 kBackPower = 10;

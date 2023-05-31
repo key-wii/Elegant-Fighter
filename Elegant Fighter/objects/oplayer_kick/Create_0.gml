@@ -1,4 +1,6 @@
 /// @description Attack in 3 frames
+xMoveInput();
+	
 strState = "Kick";
 hitbox = noone;
 image_index = 0;

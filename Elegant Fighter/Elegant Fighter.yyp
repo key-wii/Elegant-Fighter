@@ -96,6 +96,7 @@
     {"id":{"name":"sprSlow","path":"sprites/sprSlow/sprSlow.yy",},},
     {"id":{"name":"sprPlayer_duck","path":"sprites/sprPlayer_duck/sprPlayer_duck.yy",},},
     {"id":{"name":"sprPlayer_punch_last","path":"sprites/sprPlayer_punch_last/sprPlayer_punch_last.yy",},},
+    {"id":{"name":"scrXMoveInput","path":"scripts/scrXMoveInput/scrXMoveInput.yy",},},
     {"id":{"name":"sprPlayer_hurt","path":"sprites/sprPlayer_hurt/sprPlayer_hurt.yy",},},
     {"id":{"name":"shdThermal","path":"shaders/shdThermal/shdThermal.yy",},},
     {"id":{"name":"oEnemy_parent","path":"objects/oEnemy_parent/oEnemy_parent.yy",},},
