@@ -18,6 +18,9 @@ knockdown = false;
 juggleCount = 0;
 lastHitType = noone;
 
+hp = 1;
+broken = false;
+
 alarm_set(4, 1);
 
 

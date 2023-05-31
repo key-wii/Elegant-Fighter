@@ -1,5 +1,4 @@
 /// @description Attack in 3 frames
-xMoveInput();
 	
 strState = "Kick Combo";
 hitbox = noone;

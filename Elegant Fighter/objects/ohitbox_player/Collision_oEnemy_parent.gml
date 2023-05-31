@@ -26,6 +26,8 @@ with (enemy) {
 	lastHitType = other.atkType;
 	
 	y += kBack;
+	hp -= 1;
+	if (hp <= 0) broken = true;
 }
 
 lethal = false;
